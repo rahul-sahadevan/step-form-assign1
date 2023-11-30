@@ -1,0 +1,46 @@
+/* css for the pages-------------------- */
+h1{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 25%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgb(124, 121, 121);
+}
+ form input{
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+
+ }
+ label{
+  font-weight: 600;
+ }
+
+ label::after{
+  content: '*';
+  color: red;
+ }
+select{
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.alldetails-div{
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px grey;
+  width: 40%;
+  padding: 20px;
+  
+}
+h2{
+  margin: auto;
+}
